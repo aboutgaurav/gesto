@@ -73,4 +73,4 @@ Step 3. Obtain your view refernce and set listener
 	
   To remove gesture listener
   
-  	textView.setOnTouchListener(null);
+  	view.setOnTouchListener(null);
