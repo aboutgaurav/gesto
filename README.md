@@ -1,4 +1,5 @@
-# gesto
+# gesto [![](https://jitpack.io/v/aboutgaurav/gesto.svg)](https://jitpack.io/#aboutgaurav/gesto)
+
 A simple gesture detection library for android.
 
 ## USES
