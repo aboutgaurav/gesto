@@ -19,3 +19,55 @@ Step 2. Add the dependency
     dependencies{
     	compile 'com.github.aboutgaurav:gesto:0.1.0'
    	}
+
+Step 3. Obtain your view refernce and set listener
+
+	//Obtain your view reference
+        View view = findViewById(R.id.view);
+	
+	//Set listener
+        view.setOnTouchListener(new OnGestureListener(this) {
+            @Override
+            public void onSwipeRight() {
+                super.onSwipeRight();
+                //todo
+            }
+
+            @Override
+            public void onSwipeLeft() {
+                super.onSwipeLeft();
+                //todo
+            }
+
+            @Override
+            public void onSwipeTop() {
+                super.onSwipeTop();
+                //todo
+            }
+
+            @Override
+            public void onSwipeBottom() {
+                super.onSwipeBottom();
+                //todo
+            }
+
+            @Override
+            public void onClick() {
+                super.onClick();
+                //todo
+            }
+
+            @Override
+            public void onDoubleClick() {
+                super.onDoubleClick();
+                //todo
+            }
+
+            @Override
+            public void onLongClick() {
+                super.onLongClick();
+                //todo
+            }}
+
+        );
+	
