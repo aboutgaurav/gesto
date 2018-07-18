@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
     dependencies{
-    	implementation 'com.github.aboutgaurav:gesto:0.1.0'
+    	implementation 'com.github.aboutgaurav:gesto:0.1.1'
    	}
 
 Step 3. Obtain your view refernce and set listener
