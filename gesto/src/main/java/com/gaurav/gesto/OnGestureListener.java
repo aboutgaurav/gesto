@@ -56,9 +56,9 @@ public class OnGestureListener implements View.OnTouchListener {
 
 
         @Override
-        public boolean onSingleTapUp(MotionEvent e) {
+        public boolean onSingleTapConfirmed(MotionEvent e) {
             onClick();
-            return super.onSingleTapUp(e);
+            return super.onSingleTapConfirmed(e);
         }
 
         @Override
